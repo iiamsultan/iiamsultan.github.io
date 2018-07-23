@@ -3,7 +3,7 @@
 <head>
 	<style>
 		* {
-			font: sans-serif;
+			font-family: sans-serif;
 			padding: 0;
 			margin: 0;
 			box-sizing: border-box;
@@ -14,28 +14,67 @@
 		}
 
 		header {
-			text-align: center;
 			height: 100vh;
 			background: linear-gradient(#062660, #fda970);
 			color: white;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+			align-items: center;
+		}
 
+		header div {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		}
+
+		header footer {
+			width: 3rem;
+			height: 3rem;
+			bottom: 3rem;
+		}
+
+		header footer button {
+			align-items: flex-start;
+			text-align: center;
+			cursor: default;
+			background-color: transparent;
+			padding: 0;
+			border: none;
+		}
+
+		header footer svg {
+			fill: white;
+			width: 3rem;
+			height: 3rem;
 		}
 	</style>
 </head>
 
 <body>
 	<header>
-		<h1 class="caps">bonn city camp</h1>
-		<p>poppelsdorferallee</p>
-		<p>3.8. - 10.8.</p>
-		<br>
-		<h1 class="caps">mit konzerten</h1>
-		<p>Die P, Celoviz, Tice, Holger Burner</p>
-		<p>Camaro &amp; Zeb, Nmc, Zit</p>
+		<div>
+			<h1 class="caps">bonn city camp</h1>
+			<p>poppelsdorferallee</p>
+			<p>3.8. - 10.8.</p>
+			<br>
+			<h1 class="caps">mit konzerten</h1>
+			<p>Die P, Celoviz, Tice, Holger Burner</p>
+			<p>Camaro &amp; Zeb, Nmc, Zit</p>
+		</div>
+		<footer>
+			<button id="scrollToNav">
+				<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+					<path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z"></path>
+					<path fill="none" d="M0,0h24v24H0V0z"></path>
+				</svg>
+			</button>
+		</footer>
 	</header>
 
 </body>
+
 </html>
