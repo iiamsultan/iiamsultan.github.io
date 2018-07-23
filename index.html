@@ -1,6 +1,7 @@
 <html>
 
 <head>
+	<meta name="viewport" content="width=device-width,minimum-scale=1">
 	<style>
 		* {
 			font-family: sans-serif;
@@ -13,9 +14,14 @@
 			text-transform: uppercase;
 		}
 
+		.adjust {
+			margin-top: 2rem;
+		}
+
 		header {
 			height: 100vh;
 			background: linear-gradient(#062660, #fda970);
+			background-attachment: fixed;
 			color: white;
 			display: flex;
 			flex-direction: column;
@@ -31,13 +37,23 @@
 			text-align: center;
 		}
 
+		header div p#place {
+			font-size: 24px;
+			text-transform: capitalize;
+			margin-top: 1rem;
+		}
+
+		header div p#place svg {
+			fill: white;
+		}
+
 		header footer {
 			width: 3rem;
 			height: 3rem;
 			bottom: 3rem;
 		}
 
-		header footer button {
+		header footer a {
 			align-items: flex-start;
 			text-align: center;
 			cursor: default;
@@ -51,6 +67,107 @@
 			width: 3rem;
 			height: 3rem;
 		}
+
+		main {
+			min-height: 100vh;
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 72px 16px 100px;
+		}
+
+		main p#teaser {
+			line-height: 1.5;
+		}
+
+		/** EXPERIENCE */
+
+		.hero--sm {
+			padding: 30px 20px;
+		}
+
+		@media (min-width: 812px) {
+			.hero--sm {
+				padding: 120px 60px 60px;
+			}
+		}
+
+		.hero {
+			background: #fff;
+			box-sizing: border-box;
+			max-width: 1440px;
+			margin: 0 auto;
+			overflow: hidden;
+			padding: 20px;
+			position: relative;
+		}
+
+		@media (min-width: 812px) {
+			.hero {
+				overflow: visible;
+				padding: 120px 60px;
+			}
+		}
+
+		.hero .hero__content {
+			max-width: 1100px;
+			margin: 0 auto;
+		}
+
+		@media (min-width: 812px) {
+			.hero .hero__content {
+				padding: 0 30px;
+			}
+		}
+
+		.grid {
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.grid__item {
+			box-sizing: border-box;
+		}
+
+		.grid__item--12-cols {
+			width: 100%;
+		}
+
+		@media (min-width: 812px) {
+			.grid__item--12-cols--gt-md {
+				width: 100%;
+			}
+		}
+
+		.hero .hero__main {
+			margin-bottom: 60px;
+		}
+
+		.hero--sm .hero__main {
+			margin-bottom: 30px !important;
+		}
+
+		.hero .hero__body {
+			font-size: 24px;
+			line-height: 30px;
+		}
+
+		@media (min-width: 812px) {
+			.hero .hero__body {
+				font-size: 44px;
+				line-height: 56px;
+			}
+		}
+
+		.schedule-topic {
+			position: absolute;
+			left: 0;
+			width: 100%;
+		}
+
+		.schedule {
+			margin-top: 326px;
+		}
 	</style>
 </head>
 
@@ -58,22 +175,63 @@
 	<header>
 		<div>
 			<h1 class="caps">bonn city camp</h1>
-			<p>poppelsdorferallee</p>
+			<p>Selbstorganisiertes Jugendcamp gegen den globalen Rechtsruck</p>
+			<p id="place">
+				<span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+						/>
+						<path d="M0 0h24v24H0z" fill="none" />
+					</svg>
+				</span>
+				<span>
+					poppelsdorferallee
+				</span>
+			</p>
 			<p>3.8. - 10.8.</p>
 			<br>
-			<h1 class="caps">mit konzerten</h1>
+			<h1 class="caps adjust">hip-hop konzerte</h1>
 			<p>Die P, Celoviz, Tice, Holger Burner</p>
 			<p>Camaro &amp; Zeb, Nmc, Zit</p>
 		</div>
 		<footer>
-			<button id="scrollToNav">
+			<a role="button" href="#main" id="scrollToNav">
 				<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
 					<path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z"></path>
 					<path fill="none" d="M0,0h24v24H0V0z"></path>
 				</svg>
-			</button>
+			</a>
 		</footer>
 	</header>
+
+	<main id="main">
+		<p id="teaser">
+			Immer mehr Menschen, vor allem wir Jugendliche, haben keinen Bock mehr auf eine Gesellschaft, in der rechte Hetze, anti-demokratische
+			Polizeigesetze, beschissene Arbeitsbedingungen und sexistisches Verhalten zur Tagesordnung gehören. In allen Ecken sprießen
+			neue Bewegungen aus dem Boden. Das nehmen wir zum Anlass, in Bonn ein politisches Camp zu veranstalten, dass sich schwerpunktmäßig
+			mit dem globalen Rechtsruck befassen wird. An sechs Thementagen kommen verschiedene Vertreter*innen sozialer Bewegungen
+			zu Wort und öffnen die Tür zu einer Welt des vielfältigen, bunten Widerstandes. Das Camp wird vollständig von uns Jugendlichen
+			selbstorganisiert und ist weder profitorientiert, noch parteienabhängig. Mit Musik, Kunst und Kultur, Vorträgen, Workshops
+			und Podiumsdiskussionen möchten wir auf dem Camp in Bonn interessierte Menschen einladen, sich zu informieren, auszutauschen,
+			zu engagieren und aktiv gegen den Rechtsruck zu werden.
+		</p>
+
+		<div class="hero section hero--sm schedule-topic">
+			<div class="hero__content">
+				<div class="grid">
+					<div class="grid__item grid__item--12-cols grid__item--12-cols--gt-md">
+						<div class="hero__main">
+							<div class="hero__body">
+								Schedule
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<p class="schedule">coming soon...</p>
+	</main>
 
 </body>
 
