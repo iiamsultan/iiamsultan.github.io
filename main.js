@@ -21,7 +21,7 @@ function printDay(data) {
         //printEvent
         let event = document.importNode(document.querySelector("template#event").content, true);
         
-        event.querySelector(".time").insertBefore(document.createTextNode(eventd.time[0]), null);
+        event.querySelector(".time").insertBefore(document.createTextNode(eventd.time[0]), event.querySelector(".time span"));
 
         //event.querySelector(".time").textContent = eventd.time[0];
         event.querySelector(".time span").textContent = eventd.time[1];
