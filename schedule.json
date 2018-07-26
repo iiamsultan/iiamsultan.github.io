@@ -1,8 +1,27 @@
 [
     {
         "day": "Freitag, 3. August",
+        "index": 1,
         "topic": "Aufbau und Konzert",
         "programm": [
+            {
+                "time": [
+                    "8:00",
+                    "AM"
+                ],
+                "title": "Aufbau",
+                "type": "",
+                "who": "Alle"
+            },
+            {
+                "time": [
+                    "6:00",
+                    "PM"
+                ],
+                "title": "Abendessen",
+                "type": "",
+                "who": ""
+            },
             {
                 "time": [
                     "7:00",
@@ -10,17 +29,36 @@
                 ],
                 "title": "HipHop Abend",
                 "type": "Konzert",
-                "who": "Die P, Celoviz, Tice, Holger Burner"
+                "who": "Holger Burner, Celoviz, Die P, Tice,"
             }
         ]
     },
     {
         "day": "Samstag, 4. August",
+        "index": 2,
         "topic": "Feminismus",
         "programm": [
             {
                 "time": [
-                    "9:30",
+                    "8:00",
+                    "AM"
+                ],
+                "title": "Frühstück",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time": [
+                    "9:00",
+                    "AM"
+                ],
+                "title": "Geschlecht in Krieg und Frieden",
+                "type": "Vortrag",
+                "who": "Frauennetzwerk für Frieden e.V."
+            },
+            {
+                "time": [
+                    "11:30",
                     "AM"
                 ],
                 "title": "Ohne Geschlechtergerechtigkeit keinen Frieden",
@@ -29,25 +67,34 @@
             },
             {
                 "time": [
-                    "2:30",
+                    "2:00",
                     "PM"
                 ],
-                "title": "Geschlecht in Krieg und Frieden",
-                "type": "Vortrag",
-                "who": "Frauennetzwerk für Frieden e.V."
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
             },
             {
                 "time": [
                     "4:00",
                     "PM"
                 ],
-                "title": "Wie können wir uns gegen Sexismus auf der Straße wehren",
-                "type": "Workshop",
-                "who": "noch nicht bekannt"
+                "title": "Geschichte der Frauenbewegung",
+                "type": "Interaktiver Vortrag",
+                "who": "Kommunistischer Aufbau"
             },
             {
                 "time": [
                     "6:00",
+                    "PM"
+                ],
+                "title": "Abendessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time": [
+                    "7:00",
                     "PM"
                 ],
                 "title": "HipHop Abend",
@@ -58,16 +105,35 @@
     },
     {
         "day": "Sonntag, 5. August",
+        "index": 3,
         "topic": "Grundrechte verteidigen",
         "programm": [
             {
                 "time": [
-                    "9:30",
+                    "8:00",
                     "AM"
                 ],
-                "title": "Drohende Gefahr - Was sind die juristischen Konsequenzen des geplanten neuen Polizeigesetzes?",
-                "type": "Vortrag",
-                "who": "noch nicht bekannt"
+                "title": "Frühstück",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time": [
+                    "10:00",
+                    "AM"
+                ],
+                "title": "G20 - Gipfel der Polizeigewalt?",
+                "type": "Diskussion",
+                "who": "Bonner Jugendbewegung"
+            },
+            {
+                "time": [
+                    "12:00",
+                    "PM"
+                ],
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
             },
             {
                 "time":[
@@ -80,32 +146,42 @@
             },
             {
                 "time": [
-                    "7:00",
+                    "6:00",
                     "PM"
                 ],
-                "title": "G20 - Gipfel der Polizeigewalt!",
-                "type":  "Diskussion",
-                "who": "noch nicht bekannt"
+                "title": "Abendessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time": [
+                    "7:30",
+                    "PM"
+                ],
+                "title": "G20 Polizeigewalt!",
+                "type":  "Film & Diskussion",
+                "who": ""
             }
         ]
     },
     {
         "day": "Montag, 6. August",
+        "index": 4,
         "topic": "Antifaschismus",
         "programm":[
             {
-                "time":[
-                    "9:30",
+                "time": [
+                    "8:00",
                     "AM"
                 ],
-                "title": "Blockade- und Demonstrationstraining",
-                "type": "Workshop",
-                "who": "SeeRed Düsseldorf"
+                "title": "Frühstück",
+                "type": "",
+                "who": ""
             },
             {
                 "time":[
-                    "4:00",
-                    "PM"
+                    "10:00",
+                    "AM"
                 ],
                 "title": "Was tun gegen die AFD?",
                 "type": "Vortrag",
@@ -113,98 +189,201 @@
             },
             {
                 "time":[
-                    "7:00",
+                    "12:00",
+                    "AM"
+                ],
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "2:00",
                     "PM"
                 ],
-                "title": "Dismantle Populism - Rechte Parolen am Stammtisch erkennen und widerlegen",
+                "title": "Identitäre Bewegung in Deutschland",
+                "type": "Vortrag",
+                "who": "Bonner Jugendbewegung"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Blockadetraining",
                 "type": "Workshop",
-                "who": "ATTAC Bonn"
+                "who": "SeeRed Düsseldorf"
+            },
+            {
+                "time":[
+                    "7:30",
+                    "PM"
+                ],
+                "title": "Soliaktion zur Seenotrettung",
+                "type": "Kundgebung",
+                "who": ""
             }
         ]
     },
     {
         "day": "Dienstag, 7. August",
+        "index": 5,
         "topic": "Umweltschutz",
         "programm":[
             {
                 "time":[
-                    "9:30",
+                    "8:00",
                     "AM"
                 ],
-                "title": "Von Glyphosat bis Dieselskandal - Klimawandel und Kapitalismus",
+                "title": "Fühstück",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "10:00",
+                    "AM"
+                ],
+                "title": "Klimagerechtigkeit und Wachstumskritik - Alternativen für den Schutz unserer Umwelt",
                 "type": "Vortrag",
-                "who": "Dr. Antonius Michelmann"
+                "who": "Werner Rätz - ATTAC Bonn"
+            },
+            {
+                "time":[
+                    "12:00",
+                    "PM"
+                ],
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
             },
             {
                 "time":[
                     "4:00",
                     "PM"
                 ],
-                "title": "Klimagerechtigkeit und Wachstumskritik - Alternativen für den Schutz unserer Umwelt",
-                "type": "Vortrag",
-                "who": "ATTAC Bonn"
+                "title": "Gemeinsames Müllsammeln am Rhein",
+                "type": "Workshop",
+                "who": "Bonner Jugendbewegung"
             },
             {
                 "time":[
-                    "7:00",
+                    "7:30",
                     "PM"
                 ],
-                "title": "Umweltschutz muss praktisch werden: Gemeinsames Müllsammeln am Rhein",
+                "title": "Upcycling",
                 "type": "Workshop",
-                "who": "noch nicht bekannt"
+                "who": "Bonner Jugendbewegung"
+            },
+            {
+                "time":[
+                    "10:00",
+                    "PM"
+                ],
+                "title": "Containern",
+                "type": "Workshop",
+                "who": "Bonner Jugendbewegung"
             }
         ]
     },
     {
         "day": "Mittwoch, 8. August",
+        "index": 6,
         "topic": "Internationale Solidarität",
         "programm":[
             {
                 "time":[
-                    "9:30",
+                    "8:00",
                     "AM"
                 ],
-                "title": "Die Revolution in Rojava",
-                "type": "Vortrag",
-                "who": "Soli-Kommitee Bonn-Kurdistan"
+                "title": "Frühstück",
+                "type": "",
+                "who": ""
             },
             {
                 "time":[
-                    "4:00",
+                    "10:00",
+                    "AM"
+                ],
+                "title": "Pakistan in der Krise",
+                "type": "Vortrag",
+                "who": "Gruppe Arbeiterinnenmacht"
+            },
+            {
+                "time":[
+                    "12:00",
+                    "PM"
+                ],
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "3:00",
+                    "PM"
+                ],
+                "title": "Die Revolution in Rojava",
+                "type": "Vortrag",
+                "who": "Bonner Solidaritätskomitee Kurdistan"
+            },
+            {
+                "time":[
+                    "5:00",
+                    "PM"
+                ],
+                "title": "Rebellion gegen den Krieg",
+                "type": "Workshop",
+                "who": "Jugendverband Rebell"
+            },
+            {
+                "time":[
+                    "6:00",
                     "PM"
                 ],
                 "title": "Über die Lage in Palästina und Trumps Jahrhundertdeal",
                 "type": "Vortrag",
                 "who": "Palästinensische Gemende Bonn"
-            },
+            }
+            ,
             {
                 "time":[
                     "7:00",
                     "PM"
                 ],
-                "title": "Rebellion gegen den Krieg und gemeinsames Schildermalen",
-                "type": "Workshop",
-                "who": "Jugendverband Rebell"
+                "title": "Abendessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "8:00",
+                    "PM"
+                ],
+                "title": "Musik und Lagerfeuer",
+                "type": "",
+                "who": ""
             }
         ]
     },
     {
         "day": "Donnerstag, 9. August",
+        "index": 7,
         "topic": "Perspektive",
         "programm":[
             {
                 "time":[
-                    "9:30",
+                    "8:00",
                     "AM"
                 ],
-                "title": "Wofür wir kämpfen",
-                "type": "Vortrag",
-                "who": "Die Linke Bonn"
+                "title": "Frühstück",
+                "type": "",
+                "who": ""
             },
             {
                 "time":[
-                    "4:00",
-                    "PM"
+                    "10:00",
+                    "AM"
                 ],
                 "title": "Was ist Kommunismus?",
                 "type": "Vortrag",
@@ -212,7 +391,26 @@
             },
             {
                 "time":[
-                    "6:00",
+                    "12:00",
+                    "PM"
+                ],
+                "title": "Mittagessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "2:00",
+                    "PM"
+                ],
+                "title": "Wofür wir kämpfen",
+                "type": "Vortrag",
+                "who": "Linkspartei Bonn"
+            },
+            
+            {
+                "time":[
+                    "3:00",
                     "PM"
                 ],
                 "title": "Perspektive der Umweltbeweung im Kapitalismus",
@@ -221,17 +419,36 @@
             },
             {
                 "time":[
-                    "9:30",
+                    "5:00",
                     "PM"
                 ],
-                "title": "Wie geht's weiter? Was können wir gegen den Rechtsruck tun?",
-                "type":"Podiumsdiskussion",
-                "who": "noch nicht bekannt"
+                "title": "Feministische Perspektiven",
+                "type": "Vortrag",
+                "who": "SeeRed Düsseldorf"
+            },
+            {
+                "time":[
+                    "6:00",
+                    "PM"
+                ],
+                "title": "Abendessen",
+                "type": "",
+                "who": ""
+            },
+            {
+                "time":[
+                    "7:30",
+                    "PM"
+                ],
+                "title": "Was tun gegen den Rechtsruck?",
+                "type": "Podiumsdiskussion",
+                "who": ""
             }
         ]
     },
     {
         "day": "Freitag, 10. August",
+        "index": 8,
         "topic": "Abschied",
         "programm":[
             {

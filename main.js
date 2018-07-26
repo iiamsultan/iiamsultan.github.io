@@ -1,3 +1,8 @@
+import('https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js')
+    .then(function () {
+        var scl = new SmoothScroll();
+    });
+
 let schedule = document.querySelector(".schedule");
 
 document.addEventListener("scroll", function (e) {
@@ -10,17 +15,16 @@ document.addEventListener("scroll", function (e) {
     }
 }, { passive: true });
 
-let url = '/schedule.json';
-
 function printDay(data) {
     let day = document.importNode(document.querySelector("template#day").content, true);
+    day.querySelector(".day").id += data.index;
 
     //insert data
     day.querySelector(".day-caption").textContent = data.day + " - " + data.topic;
     data.programm.forEach(eventd => {
         //printEvent
         let event = document.importNode(document.querySelector("template#event").content, true);
-        
+
         event.querySelector(".time").insertBefore(document.createTextNode(eventd.time[0]), event.querySelector(".time span"));
 
         //event.querySelector(".time").textContent = eventd.time[0];
@@ -36,6 +40,8 @@ function printDay(data) {
     document.querySelector("#day-wrapper").appendChild(day);
 }
 
+let url = '/schedule.json';
+
 fetch(url)
     .then(res => res.json())
     .then((out) => {
@@ -44,8 +50,7 @@ fetch(url)
         wrapper.id = "day-wrapper";
         wrapper.style.display = "none";
 
-        // add the newly created element and its content into the DOM 
-        var currentDiv = document.getElementById("div1");
+        // add element to DOM 
         document.querySelector(".schedule").appendChild(wrapper);
 
         out.forEach(day => {
@@ -58,3 +63,12 @@ fetch(url)
 
     })
     .catch(err => { throw err });
+
+document.querySelectorAll("#tabbar a").forEach(e => {
+    e.addEventListener("click", function (e) {
+        console.log(this);
+        e.preventDefault();
+        scl.animateScroll(schedule.offsetTop - document.querySelector("#tabbar".offsetHeight));
+
+    });
+});
