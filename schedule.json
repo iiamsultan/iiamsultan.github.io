@@ -1,0 +1,257 @@
+[
+    {
+        "day": "Freitag, 3. August",
+        "topic": "Aufbau und Konzert",
+        "programm": [
+            {
+                "time": [
+                    "7:00",
+                    "PM"
+                ],
+                "title": "HipHop Abend",
+                "type": "Konzert",
+                "who": "Die P, Celoviz, Tice, Holger Burner"
+            }
+        ]
+    },
+    {
+        "day": "Samstag, 4. August",
+        "topic": "Feminismus",
+        "programm": [
+            {
+                "time": [
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Ohne Geschlechtergerechtigkeit keinen Frieden",
+                "type": "Workshop",
+                "who": "EcoMujer"
+            },
+            {
+                "time": [
+                    "2:30",
+                    "PM"
+                ],
+                "title": "Geschlecht in Krieg und Frieden",
+                "type": "Vortrag",
+                "who": "Frauennetzwerk für Frieden e.V."
+            },
+            {
+                "time": [
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Wie können wir uns gegen Sexismus auf der Straße wehren",
+                "type": "Workshop",
+                "who": "noch nicht bekannt"
+            },
+            {
+                "time": [
+                    "6:00",
+                    "PM"
+                ],
+                "title": "HipHop Abend",
+                "type": "Konzert",
+                "who": "Camaro & Zeb, Nmc, Zit"
+            }
+        ]
+    },
+    {
+        "day": "Sonntag, 5. August",
+        "topic": "Grundrechte verteidigen",
+        "programm": [
+            {
+                "time": [
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Drohende Gefahr - Was sind die juristischen Konsequenzen des geplanten neuen Polizeigesetzes?",
+                "type": "Vortrag",
+                "who": "noch nicht bekannt"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Das modernste Polizeigesetz aller Zeiten? Ein Ticket zurück ins Mittelalter! Grundrechtsabbau im Laufe der Geschichte",
+                "type": "Workshop",
+                "who": "Simon Ernst, Aktiv im Bündnis Grundrechte Verteidigen"
+            },
+            {
+                "time": [
+                    "7:00",
+                    "PM"
+                ],
+                "title": "G20 - Gipfel der Polizeigewalt!",
+                "type":  "Diskussion",
+                "who": "noch nicht bekannt"
+            }
+        ]
+    },
+    {
+        "day": "Montag, 6. August",
+        "topic": "Antifaschismus",
+        "programm":[
+            {
+                "time":[
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Blockade- und Demonstrationstraining",
+                "type": "Workshop",
+                "who": "SeeRed Düsseldorf"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Was tun gegen die AFD?",
+                "type": "Vortrag",
+                "who": "Antikapitalistische Aktion Bonn"
+            },
+            {
+                "time":[
+                    "7:00",
+                    "PM"
+                ],
+                "title": "Dismantle Populism - Rechte Parolen am Stammtisch erkennen und widerlegen",
+                "type": "Workshop",
+                "who": "ATTAC Bonn"
+            }
+        ]
+    },
+    {
+        "day": "Dienstag, 7. August",
+        "topic": "Umweltschutz",
+        "programm":[
+            {
+                "time":[
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Von Glyphosat bis Dieselskandal - Klimawandel und Kapitalismus",
+                "type": "Vortrag",
+                "who": "Dr. Antonius Michelmann"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Klimagerechtigkeit und Wachstumskritik - Alternativen für den Schutz unserer Umwelt",
+                "type": "Vortrag",
+                "who": "ATTAC Bonn"
+            },
+            {
+                "time":[
+                    "7:00",
+                    "PM"
+                ],
+                "title": "Umweltschutz muss praktisch werden: Gemeinsames Müllsammeln am Rhein",
+                "type": "Workshop",
+                "who": "noch nicht bekannt"
+            }
+        ]
+    },
+    {
+        "day": "Mittwoch, 8. August",
+        "topic": "Internationale Solidarität",
+        "programm":[
+            {
+                "time":[
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Die Revolution in Rojava",
+                "type": "Vortrag",
+                "who": "Soli-Kommitee Bonn-Kurdistan"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Über die Lage in Palästina und Trumps Jahrhundertdeal",
+                "type": "Vortrag",
+                "who": "Palästinensische Gemende Bonn"
+            },
+            {
+                "time":[
+                    "7:00",
+                    "PM"
+                ],
+                "title": "Rebellion gegen den Krieg und gemeinsames Schildermalen",
+                "type": "Workshop",
+                "who": "Jugendverband Rebell"
+            }
+        ]
+    },
+    {
+        "day": "Donnerstag, 9. August",
+        "topic": "Perspektive",
+        "programm":[
+            {
+                "time":[
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Wofür wir kämpfen",
+                "type": "Vortrag",
+                "who": "Die Linke Bonn"
+            },
+            {
+                "time":[
+                    "4:00",
+                    "PM"
+                ],
+                "title": "Was ist Kommunismus?",
+                "type": "Vortrag",
+                "who": "Kommunistischer Aufbau"
+            },
+            {
+                "time":[
+                    "6:00",
+                    "PM"
+                ],
+                "title": "Perspektive der Umweltbeweung im Kapitalismus",
+                "type": "Vortrag",
+                "who": "MLPD"
+            },
+            {
+                "time":[
+                    "9:30",
+                    "PM"
+                ],
+                "title": "Wie geht's weiter? Was können wir gegen den Rechtsruck tun?",
+                "type":"Podiumsdiskussion",
+                "who": "noch nicht bekannt"
+            }
+        ]
+    },
+    {
+        "day": "Freitag, 10. August",
+        "topic": "Abschied",
+        "programm":[
+            {
+                "time":[
+                    "9:30",
+                    "AM"
+                ],
+                "title": "Abschlussdiskussion",
+                "type": "Diskussion",
+                "who": "Alle"
+            },
+            {
+                "time":[
+                    "1:00",
+                    "PM"
+                ],
+                "title": "Gemeinsames Rasenpflanzen",
+                "type": "",
+                "who": ""
+            }
+        ]
+    }
+]
